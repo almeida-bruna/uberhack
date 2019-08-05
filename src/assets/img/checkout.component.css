@@ -1,0 +1,39 @@
+.form-control:invalid {
+    border: 1px solid #cc0000;
+}
+
+.navbar {
+    margin: 5px;
+}
+
+#img {
+    width: 70px;
+}
+
+.botao-proximo {
+    margin-bottom: 10px;
+}
+
+.bloco-checkout {
+    margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+    }
+    .descritption {
+        font-size: 15px;
+    }
+
+    .jumbotron{
+        padding-top: 0px;
+        padding-bottom: 3px;
+        margin-bottom: 7px;
+    }
+
+    .bloco-pagamento {
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+}

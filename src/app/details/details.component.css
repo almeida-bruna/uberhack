@@ -1,0 +1,20 @@
+.bloco-descricao {
+  margin-top: 70px;
+}
+
+.botao-proximo {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0%;
+  }
+  h1 {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .bloco-descricao {
+    margin-top: 15px;
+  }
+}

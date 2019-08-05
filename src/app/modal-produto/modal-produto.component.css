@@ -1,0 +1,132 @@
+.container-modal{
+  margin: auto;
+  margin-top: 30px;
+  width: 75%;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.5);
+}
+.move{
+  margin-left: 20px;
+  line-height: 50px;
+}
+/***************************************/
+.cont-buttons{
+  width: 7%;
+  height: 100%;
+  float: left;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.cont-buttons ul{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  list-style-type:none;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.cont-buttons ul li{
+  width: 100%;
+  height: 33.33333333%;
+  border-bottom: solid 1px black;
+  transition: all ease .2s;
+}
+
+.cont-buttons ul li:hover{
+  background-color: #e8e8e8;
+  color: #1faa00;
+}
+
+.modifique{
+  font-size: 40px;
+  text-align: center;
+  line-height: 4;
+  margin-left: 10px;
+}
+
+.altere{
+  font-size: 40px;
+  float:left;
+}
+/***************************************/
+.cont-images{
+  width: 53%;
+  height: 100%;
+  background-color: yellow;
+  float: left;
+}
+
+.img-product{
+  width: 100%;
+  height: 100%;
+}
+/***************************************/
+.cont-informations{
+  width: 40%;
+  height: 100%;
+  float: left;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.list-informations{
+  width: 100%;
+  height: 60%;
+
+  border-top-right-radius: 10px;
+}
+
+.exit{
+  width: 8%;
+  height: 8%;
+  margin-left: 92%;
+  margin-bottom: 15px;
+}
+
+.list-informations ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type:none;
+  width: 84%;
+  height: 80%;
+  margin-left: 8%;
+}
+
+.list-informations ul li{
+  width: 100%;
+  height: 20%;
+  border-bottom: solid 1px #fff;
+}
+
+.description{
+  width: 100%;
+  height: 40%;
+  padding-top: 5%;
+
+  border-bottom-right-radius: 10px;
+}
+
+.name-product{
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #1faa00;
+  font-weight: bold;
+}
+
+.about-product{
+  width: 90%;
+  height: auto;
+  max-height: 140px;
+  margin-left: 5%;
+  margin-top: 10px;
+  overflow-y: auto;
+}

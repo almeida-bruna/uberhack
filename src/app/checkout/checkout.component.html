@@ -1,0 +1,126 @@
+<div class="row bloco-checkout">
+
+  <div class="col-sm-12">
+    <div class="jumbotron">
+      <div class="container">
+        <!-- h1 e p que já tínhamos -->
+        <h1>Ótima escolha!</h1>
+        <p class="descritption">Obrigado por alugar através da nossa plataforma! Preencha seus dados para efetivar a sua locação.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">Sua seleção</h2>
+      </div>
+
+      <div class="panel-body">
+
+        <div class="text-center">
+          <img src="assets/img/bicicleta01.jpeg" alt="bicicleta">
+        </div>
+        <hr>
+        <div>
+          <label>Nome:</label>
+          <span>Bicicleta</span>
+        </div>
+
+        <div>
+          <label>Marca:</label>
+          <span>Caloi 10</span>
+        </div>
+
+        <div>
+          <label>Cor:</label>
+          <span>Preta</span>
+        </div>
+
+        <div>
+          <label>Faixa Etaria:</label>
+          <span>Adulto</span>
+        </div>
+
+        <div>
+          <label>Aro:</label>
+          <span>15</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <form class="col-sm-8">
+    <div class="row">
+      <fieldset class="col-md-6">
+        <legend>Dados da locação</legend>
+        <div>
+          <label>Data de retirada</label>
+          <input class="form-control" type="date">
+        </div>
+
+        <div>
+          <label>Horário de retirada</label>
+          <input class="form-control" type="text" placeholder="Hora de inicio">
+        </div>
+
+        <div>
+          <label>Data de entrega</label>
+          <input class="form-control" type="date">
+        </div>
+
+        <div>
+          <label for="validade-cartao">Horário de entrega</label>
+          <input class="form-control" type="text" placeholder="Hora de entrega">
+        </div>
+      </fieldset>
+
+      <fieldset class="col-md-6">
+        <legend class="bloco-pagamento">Dados de pagamento</legend>
+
+        <div>
+          <label>Forma de Pagamento</label>
+          <select class="form-control">
+            <option value="debito">Debito</option>
+            <option value="credito">Credito</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="numero-cartao">Número do cartão</label>
+          <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+        </div>
+
+        <div>
+            <label for="numero-cartao">Código de verificação</label>
+            <input type="text" class="form-control" id="numero-cartao" name="numero-cartao">
+          </div>
+
+        <div>
+          <label for="bandeira-cartao">Bandeira</label>
+          <select name="bandeira-cartao" id="bandeira-cartao" class="form-control">
+            <option value="master">MasterCard</option>
+            <option value="visa">VISA</option>
+            <option value="amex">American Express</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="validade-cartao">Validade</label>
+          <input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
+        </div>
+      </fieldset>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-right">
+        <hr>
+        <a routerLink="/finished" class="btn btn-primary botao-proximo">Finalizar</a>
+      </div>
+    </div>
+
+  </form>
+
+</div>

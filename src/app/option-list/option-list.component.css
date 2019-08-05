@@ -1,0 +1,45 @@
+.img-option {
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-top: 5px;
+    background-color: #eee;
+}
+
+.sub-bloco {
+    display: inline-block;
+}
+
+.descricao {
+    padding: 20px 0 0 10px;
+}
+
+.preco {
+    float: right;
+    margin-top: 35px;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 0%;
+    }
+    h1 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .intes {
+        margin-top: 110px;
+    }
+    .descricao {
+        padding: 0 0 0 10px;
+    }
+}

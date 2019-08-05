@@ -1,0 +1,27 @@
+.box-iten {
+    background-color: #eee;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    width: 150px;
+    transition: transform 1.2s;
+}
+
+.intes {
+    margin-top: 160px;
+}
+
+.box-iten:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .intes {
+        margin-top: 110px;
+    }
+
+}
